@@ -4,15 +4,11 @@ Slovak programming keyboard layout
 
 Download installation files https://github.com/jergusg/SK-Prog-Keyboard/releases
 
-<<<<<<< HEAD
 ### Slovak (Prog)
 ![Slovak (Prog)](./SK-Prog.svg)
 
 ### Slovak (Prog-Numpad)
 ![Slovak (Prog-Numpad)](./SK-ProgN.svg)
-=======
-![SK-Prog-Keyboard](./SK-Prog.svg)
->>>>>>> ae63f4c3b1de9ab856625f51ff50f74683c4af78
 
 Keyboard layout for comfortably writing both Slovak and code.
 
@@ -36,8 +32,4 @@ Unzip and run `setup.exe`. May require reboot. You can set the layout through wi
 Works with [External Keyboard Helper](http://www.apedroid.com/android-applications/external-keyboard-helper).
 
 The application needs *Storage permissions* enabled from android settings.  
-<<<<<<< HEAD
 Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: **Choose keyboard layout > Custom 1 (or Custom 2)**. Then in the application: **Advanced settings > Keyboard mapping > Customize keyboard mappings > ⋮ (settings) > Restore**.
-=======
-Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: **Choose keyboard layout > Custom 1 (or Custom 2)**. Then in the application: **Advanced settings > Keyboard mapping > Customize keyboard mappings > ⋮ (settings) > Restore**.
->>>>>>> ae63f4c3b1de9ab856625f51ff50f74683c4af78
