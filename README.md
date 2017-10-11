@@ -7,9 +7,6 @@ Download installation files https://github.com/jergusg/SK-Prog-Keyboard/releases
 ### Slovak (Prog)
 ![Slovak (Prog)](./SK-Prog.svg)
 
-### Slovak (Prog-Numpad)
-![Slovak (Prog-Numpad)](./SK-ProgN.svg)
-
 Keyboard layout for comfortably writing both Slovak and code.
 
 1st and 2nd level keys are the same as the standard US keyboard layout. 3rd and 4th level keys are for writing Slovak letters and other special characters. 3rd level is entered using `Alt Gr` and 4th level using `Shift + Alt Gr`. I recommend mapping also `Caps Lock` as `Alt Gr`.
