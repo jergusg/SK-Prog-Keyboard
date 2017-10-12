@@ -1,0 +1,61 @@
+partial alphanumeric_keys
+xkb_symbols "sk-prog" {
+
+    name[Group1] = "Slovak (Prog)";
+
+    key <TLDE>	{ [     grave, asciitilde,     NoSymbol,     NoSymbol ]	};
+    key <AE01>	{ [         1,     exclam,        U00b9,        U00a1 ]	};
+    key <AE02>	{ [         2,         at,        U00b2,     NoSymbol ]	};
+    key <AE03>	{ [         3, numbersign,        U00b3,        U00a3 ]	};
+    key <AE04>	{ [         4,     dollar,     NoSymbol,     NoSymbol ]	};
+    key <AE05>	{ [         5,    percent,        U20ac,        U2030 ]	};
+    key <AE06>	{ [         6, asciicircum,    NoSymbol,     NoSymbol ] };
+    key <AE07>	{ [         7,  ampersand,     NoSymbol,     NoSymbol ]	};
+    key <AE08>	{ [         8,   asterisk,        U2022,     NoSymbol ]	};
+    key <AE09>	{ [         9,  parenleft,        U201e,     NoSymbol ]	};
+    key <AE10>	{ [         0, parenright,        U201c,     NoSymbol ]	};
+    key <AE11>	{ [     minus, underscore,        U2011,        U2012 ]	};
+    key <AE12>	{ [     equal,       plus,   dead_acute,   dead_caron ]	};
+
+    key <AD01>	{ [         q,          Q,        U00e4,        U00c4 ]	};
+    key <AD02>	{ [         w,          W,        U011b,        U011a ]	};
+    key <AD03>	{ [         e,          E,        U00e9,        U00c9 ]	};
+    key <AD04>	{ [         r,          R,        U0155,        U0154 ]	};
+    key <AD05>	{ [         t,          T,        U0165,        U0164 ]	};
+    key <AD06>	{ [         y,          Y,        U00fd,        U00dd ]	};
+    key <AD07>	{ [         u,          U,        U00fa,        U00da ]	};
+    key <AD08>	{ [         i,          I,        U00ed,        U00cd ]	};
+    key <AD09>	{ [         o,          O,        U00f3,        U00d3 ]	};
+    key <AD10>	{ [         p,          P,        U00f4,        U00d4 ]	};
+    key <AD11>	{ [bracketleft,  braceleft,       U00ab,     NoSymbol ] };
+    key <AD12>	{ [bracketright, braceright,      U00bb,     NoSymbol ]	};
+
+    key <AC01>	{ [         a,          A,        U00e1,        U00c1 ]	};
+    key <AC02>	{ [         s,          S,        U0161,        U0160 ]	};
+    key <AC03>	{ [         d,          D,        U010f,        U010e ]	};
+    key <AC04>	{ [         f,          F,        U0159,        U0158 ]	};
+    key <AC05>	{ [         g,          G,        U00f6,        U00d6 ]	};
+    key <AC06>	{ [         h,          H,        U00fc,        U00dc ]	};
+    key <AC07>	{ [         j,          J,        U016f,        U016e ] };
+    key <AC08>	{ [         k,          K,        U013a,        U0139 ]	};
+    key <AC09>	{ [         l,          L,        U013e,        U013d ]	};
+    key <AC10>	{ [ semicolon,      colon,        U00b6,        U00b0 ]	};
+    key <AC11>	{ [apostrophe,   quotedbl,        U00b4, dead_diaeresis ]	};
+    key <BKSL>	{ [ backslash,        bar,        U00ac,        U2713 ]	};
+
+    key <LSGT>  { [ backslash,        bar,     NoSymbol,     NoSymbol ] };
+    key <AB01>	{ [         z,          Z,        U017e,        U017d ]	};
+    key <AB02>	{ [         x,          X,     NoSymbol,     NoSymbol ]	};
+    key <AB03>	{ [         c,          C,        U010d,        U010c ]	};
+    key <AB04>	{ [         v,          V,     NoSymbol,     NoSymbol ]	};
+    key <AB05>	{ [         b,          B,     NoSymbol,     NoSymbol ] };
+    key <AB06>	{ [         n,          N,        U0148,        U0147 ]	};
+    key <AB07>	{ [         m,          M,     NoSymbol,     NoSymbol ]	};
+    key <AB08>	{ [     comma,       less,        U2264,        U00d7 ]	};
+    key <AB09>	{ [    period,    greater,        U2265,        U00f7 ]	};
+    key <AB10>	{ [     slash,   question,        U00bf,        U2026 ] };
+
+    key <SPCE>  { [     space,      space, nobreakspace, nobreakspace ] };
+
+    include "level3(ralt_switch)"
+};
