@@ -11,10 +11,6 @@ Keyboard layout for comfortably writing both Slovak and code.
 
 1st and 2nd level keys are the same as the standard US keyboard layout. 3rd and 4th level keys are for writing Slovak letters and other special characters. 3rd level is entered using `Alt Gr` and 4th level using `Shift + Alt Gr`. I recommend mapping also `Caps Lock` as `Alt Gr`.
 
-> ***„***  
-> ***This keyboard layout truly changed my life!***  
-> ***“***  
-
 ### Thanks to and inspired by
 *Polish programmers layout*, *Tomi Belan's Slovak (AltGr) keyboard layout* and *US-International keyboard layout*
 
