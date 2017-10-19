@@ -4,13 +4,13 @@ xkb_symbols "sk-prog" {
     name[Group1] = "Slovak (Prog)";
 
     key <TLDE>	{ [     grave, asciitilde,     NoSymbol,     NoSymbol ]	};
-    key <AE01>	{ [         1,     exclam,        U00b9,        U00a1 ]	};
+    key <AE01>	{ [         1,     exclam,        U00b9,     NoSymbol ]	};
     key <AE02>	{ [         2,         at,        U00b2,     NoSymbol ]	};
-    key <AE03>	{ [         3, numbersign,        U00b3,        U00a3 ]	};
+    key <AE03>	{ [         3, numbersign,        U00b3,     NoSymbol ]	};
     key <AE04>	{ [         4,     dollar,     NoSymbol,     NoSymbol ]	};
-    key <AE05>	{ [         5,    percent,        U20ac,        U2030 ]	};
-    key <AE06>	{ [         6, asciicircum,    NoSymbol,     NoSymbol ] };
-    key <AE07>	{ [         7,  ampersand,     NoSymbol,     NoSymbol ]	};
+    key <AE05>	{ [         5,    percent,        U20ac,     NoSymbol ]	};
+    key <AE06>	{ [         6, asciicircum,       U00a7,     NoSymbol ] };
+    key <AE07>	{ [         7,  ampersand,        U00b6,     NoSymbol ]	};
     key <AE08>	{ [         8,   asterisk,        U2022,     NoSymbol ]	};
     key <AE09>	{ [         9,  parenleft,        U201e,     NoSymbol ]	};
     key <AE10>	{ [         0, parenright,        U201c,     NoSymbol ]	};
@@ -27,8 +27,8 @@ xkb_symbols "sk-prog" {
     key <AD08>	{ [         i,          I,        U00ed,        U00cd ]	};
     key <AD09>	{ [         o,          O,        U00f3,        U00d3 ]	};
     key <AD10>	{ [         p,          P,        U00f4,        U00d4 ]	};
-    key <AD11>	{ [bracketleft,  braceleft,       U00ab,     NoSymbol ] };
-    key <AD12>	{ [bracketright, braceright,      U00bb,     NoSymbol ]	};
+    key <AD11>	{ [bracketleft,  braceleft,       U201e,        U2018 ] };
+    key <AD12>	{ [bracketright, braceright,      U201c,        U2019 ]	};
 
     key <AC01>	{ [         a,          A,        U00e1,        U00c1 ]	};
     key <AC02>	{ [         s,          S,        U0161,        U0160 ]	};
@@ -39,7 +39,7 @@ xkb_symbols "sk-prog" {
     key <AC07>	{ [         j,          J,        U016f,        U016e ] };
     key <AC08>	{ [         k,          K,        U013a,        U0139 ]	};
     key <AC09>	{ [         l,          L,        U013e,        U013d ]	};
-    key <AC10>	{ [ semicolon,      colon,        U00b6,        U00b0 ]	};
+    key <AC10>	{ [ semicolon,      colon,        U2026,        U00b0 ]	};
     key <AC11>	{ [apostrophe,   quotedbl,        U00b4, dead_diaeresis ]	};
     key <BKSL>	{ [ backslash,        bar,        U00ac,        U2713 ]	};
 
@@ -53,7 +53,7 @@ xkb_symbols "sk-prog" {
     key <AB07>	{ [         m,          M,     NoSymbol,     NoSymbol ]	};
     key <AB08>	{ [     comma,       less,        U2264,        U00d7 ]	};
     key <AB09>	{ [    period,    greater,        U2265,        U00f7 ]	};
-    key <AB10>	{ [     slash,   question,        U00bf,        U2026 ] };
+    key <AB10>	{ [     slash,   question,        U2260,        U00b1 ] };
 
     key <SPCE>  { [     space,      space, nobreakspace, nobreakspace ] };
 
