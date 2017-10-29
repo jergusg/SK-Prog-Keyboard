@@ -15,14 +15,23 @@ It simply means holding modifier key `Shift` or `AltGr` while pressing a normal 
 
 ![Levels](./Levels.svg)
 
-I encourge you to create new 3rd level modifier key, in addition to `AltGr`, on the left side of keyboard, so writing is balanced for both hands. I recommed mapping `CapsLock` for this purpouse, as it is not often used nowadays and there are also software alternatives for its function. Another option is mapping this strange `backslash key` next to Left Shift.
+In addition to `AltGr`, I encourge you to create a new 3rd level modifier key on the left side of keyboard so writing is balanced for both hands. I recommed mapping `CapsLock` for this purpouse, as it is not often used nowadays and there are also software alternatives for its function. Another option is mapping this strange `backslash key` next to Left Shift.
+
 
 ## Windows
-Created using *Microsoft Keyboard Layout Creator 1.4*.
-
 Unzip and run `setup.exe`, reboot. You can set the layout through windows settings.
 
-`CapsLock` can be easily mapped to `AltGr` using [SharpKeys](https://github.com/randyrants/sharpkeys/releases) software.
+`CapsLock` can be easily mapped to `AltGr` using [SharpKeys software](https://github.com/randyrants/sharpkeys/releases).
+
+Install and run SharpKeys. Press *Add* to add new key mapping. Then select or type corresponding keys (Right Alt needs to be selected).
+![SharpKeys](./sharpkeys.png)
+Press *Write to Registry* and reboot. Mapping can be removed any time later.
+
+
+## macOS
+
+
+## Linux
 
 ## Android
 Works with [External Keyboard Helper](http://www.apedroid.com/android-applications/external-keyboard-helper).
@@ -30,5 +39,11 @@ Works with [External Keyboard Helper](http://www.apedroid.com/android-applicatio
 The application needs *Storage permissions* enabled from android settings.  
 Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: **Choose keyboard layout > Custom 1 (or Custom 2)**. Then in the application: **Advanced settings > Keyboard mapping > Customize keyboard mappings > ⋮ (settings) > Restore**.
 
+## Acknowledgements
+
 ### Thanks to and inspired by
-*Polish programmers layout*, *Tomi Belan's Slovak (AltGr) keyboard layout* and *US-International keyboard layout*
+ *Tomi Belan's Slovak (AltGr) keyboard layout*, *Polish programmers layout*, *US-International keyboard layout*
+
+Windows version was created using *Microsoft Keyboard Layout Creator 1.4*
+
+macOS version was created using *Ukelele*
