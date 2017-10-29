@@ -4,7 +4,7 @@
 Installs SK-Prog keyboard on Linux.
 
 Modifies /usr/share/X11/xkb/symbols/sk with the content from sk-prog file
-and /usr/share/X11/xkb/rules/evdev.xml
+Modifies /usr/share/X11/xkb/rules/evdev.xml
 
 Needs to be run as superuser:
 sudo python3 install-sk-prog.py
@@ -52,7 +52,7 @@ skProgXml = """
   <configItem>
     <name>sk-prog</name>
     <shortDescription>sk-prog</shortDescription>
-    <description>Slovak (Prog)</description>
+    <description>Slovak - Prog</description>
   </configItem>
 </variant>
 """

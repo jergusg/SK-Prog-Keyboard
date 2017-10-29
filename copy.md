@@ -24,20 +24,36 @@ Unzip and run `setup.exe`, reboot. You can set the layout through windows settin
 `CapsLock` can be easily mapped to `AltGr` using [SharpKeys software](https://github.com/randyrants/sharpkeys/releases).
 
 Install and run SharpKeys. Press *Add* to add new key mapping. Then select or type corresponding keys (Right Alt needs to be selected).
+
 ![SharpKeys](./sharpkeys.png)
+
 Press *Write to Registry* and reboot. Mapping can be removed any time later.
 
 
 ## macOS
+Use installer `slovak-prog.dmg` to install keyboard layout to system.
+
+If you want to install for current user only, then unzip and copy `slovak-prog.bundle` to `"~/Library/Keyboard Layouts"`
+
+On macOS right and left `alt (option)` keys are the same. `CapsLock` can be also changed to `alt (option)` in *Keyboard Preferences* (Modifier Keys).
 
 
 ## Linux
+
+Unzip and run installer python script with superuser priviledges:
+
+`sudo python3 install-sk-prog.py`
+
+Then reboot.
+
+The script inserts SK-Prog layout from `sk-prog` file into `/usr/share/X11/xkb/symbols/sk` file, where Slovak layouts are located. It also adds entry to `/usr/share/X11/xkb/rules/evdev.xml` for system to register the new layout.
+
 
 ## Android
 Works with [External Keyboard Helper](http://www.apedroid.com/android-applications/external-keyboard-helper).
 
 The application needs *Storage permissions* enabled from android settings.  
-Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: **Choose keyboard layout > Custom 1 (or Custom 2)**. Then in the application: **Advanced settings > Keyboard mapping > Customize keyboard mappings > ⋮ (settings) > Restore**.
+Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: **Choose keyboard layout > Custom 1 (or Custom 2)**. Then in the application: **Advanced settings > Keyboard mapping > Customize keyboard mappings > ⋮ (settings) > Restore**.
 
 ## Acknowledgements
 
