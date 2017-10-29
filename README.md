@@ -1,15 +1,19 @@
 # SK-Prog-Keyboard
 
-Slovak programming keyboard layout
+Slovak programming keyboard layout. For convenient writing both Slovak and Code.
 
 Download installation files https://github.com/jergusg/SK-Prog-Keyboard/releases
 
 ### Slovak (Prog)
 ![Slovak (Prog)](./SK-Prog.svg)
 
-Keyboard layout for comfortably writing both Slovak and code.
+Slovak (Prog) is standard English (US) keyboard layout with added 3rd and 4th level for Slovak letters and special symbols.
 
-1st and 2nd level keys are the same as the standard US keyboard layout. 3rd and 4th level keys are for writing Slovak letters and other special characters. 3rd level is entered using `Alt Gr` and 4th level using `Shift + Alt Gr`. I recommend mapping also `Caps Lock` as `Alt Gr`.
+## What are levels?
+It simply means holding modifier key `Shift` or `AltGr` while pressing normal key. Best illustrated with picture.
+
+![Levels](./Levels.svg)
+
 
 ### Thanks to and inspired by
 *Polish programmers layout*, *Tomi Belan's Slovak (AltGr) keyboard layout* and *US-International keyboard layout*
