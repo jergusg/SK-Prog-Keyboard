@@ -36,7 +36,7 @@ Press *Write to Registry* and reboot. Mapping can be removed any time later.
 
 
 ## macOS
-Use installer `slovak-prog.dmg` to install keyboard layout to system.
+Use installer `slovak-prog.dmg` to install the keyboard layout to system.
 
 If you want to install for current user only, then unzip and copy `slovak-prog.bundle` to `"~/Library/Keyboard Layouts"`
 
@@ -61,6 +61,11 @@ Works with [External Keyboard Helper](http://www.apedroid.com/android-applicatio
 
 The application needs *Storage permissions* enabled from android settings.  
 Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: *Choose keyboard layout > Custom 1 (or Custom 2)*. Then in the application: *Advanced settings* > *Keyboard mapping* > *Customize keyboard mappings* > ⋮ (*settings*) > *Restore*.
+
+## Known Issues
+* Application Google Keep for unknown reasons don't take some 3rd level combinatons.
+* Some older keyboards may have problem sending some combinations with physical Caps Lock key. 
+
 
 ## Acknowledgements
 
