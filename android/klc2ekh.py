@@ -1,7 +1,7 @@
 #! python3
 #
 # converts windows klc layout format to android External Keyboard Helper layout format
-# use: python klc2ekh.py sk-prog.klc
+# use: python klc2ekh.py sk-prog.klc
 # generates: ekh_backup.dat
 #
 import sys
@@ -44,7 +44,6 @@ if __name__ == "__main__":
         if line.startswith('LAYOUT'):
             rel = True
 
-    ekhFile.write('58 2 58\n')
-    ekhFile.write('100 2 58\n')
+    ekhFile.write('58 2 58\n') # CapsLock to AltGr
     klcFile.close()
     ekhFile.close()
