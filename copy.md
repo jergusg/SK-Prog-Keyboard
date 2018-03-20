@@ -69,8 +69,9 @@ Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Setti
 
 ## Acknowledgements
 
-### Thanks to and inspired by
- *Tomi Belan's Slovak (AltGr) keyboard layout*, *Polish programmers layout*, *US-International keyboard layout*
+### Thanks to Tomi Belan for the original idea and his Slovak-AltGr keyboard layout
+
+Some inspiration taken from *Polish programmers layout* and *US-International keyboard layout*
 
 Windows version was created using *Microsoft Keyboard Layout Creator 1.4*
 
