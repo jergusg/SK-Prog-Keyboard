@@ -53,7 +53,7 @@ Then reboot.
 
 The script inserts SK-Prog layout from `sk-prog` file into `/usr/share/X11/xkb/symbols/sk` file, where Slovak layouts are located. It also adds entry to `/usr/share/X11/xkb/rules/evdev.xml` for system to register the new layout.
 
-Mapping `CapsLock` to `AltGr` is diffrent in every linux desktop environment. If you have GNOME use *GNOME Tweak Tool*. KDE has this option somewhere in settings. On Ubuntu (Unity) it is: *System Settings* > *Keyboard* > *Shortcuts* > *Typing* > *Alternative Characters Key*. Or you can search google for the right command, such as:  
+Mapping `CapsLock` to `AltGr` is diffrent in every linux desktop environment. If you have GNOME use *GNOME Tweak Tool*. KDE has this option somewhere in settings. Or you can search google for the right command, such as:  
 `dconf write /org/gnome/desktop/input-sources/xkb-options "['lv3:caps_switch']"`.
 
 ## Android
@@ -61,7 +61,7 @@ Mapping `CapsLock` to `AltGr` is diffrent in every linux desktop environment. If
 Works with [External Keyboard Helper](http://www.apedroid.com/android-applications/external-keyboard-helper).
 
 The application needs *Storage permissions* enabled from android settings.  
-Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: *Choose keyboard layout > Custom 1 (or Custom 2)*. Then in the application: *Advanced settings* > *Keyboard mapping* > *Customize keyboard mappings* > ⋮ (*settings*) > *Restore*.
+Copy `ekh_backup.dat` to `Internal storage` root. In the application *EKH Settings*: *Choose keyboard layout > Custom 1 (or Custom 2)*. Then in the application: *Advanced settings* > *Keyboard mapping* > *Customize keyboard mappings* > ⋮ (*settings*) > *Restore*. Make sure that in *Advanced settings* > *Keyboard mapping*, *Override special keys* and *Alt is not AltGr* is selected.
 
 ## Known Issues
 
